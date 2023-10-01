@@ -1,0 +1,215 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+/* PAGE AWAL CENTER */
+#page-awal {
+  background: url(wallpaper2.jpg) no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcome-page {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 100px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.welcome-page:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(2px);
+  margin: -20px;
+}
+.welcome-text{
+  position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: white;
+    transform: scale(.8);
+}
+/* NAVIGATION BAR CENTER */
+ul.nav {
+  text-align: right;
+}
+ul.nav {
+  position: sticky;
+  top: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+li.icon-image {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 45px;
+  margin: 0.3em 1em;
+  float: left;
+}
+.icon-gambar {
+  border-radius: 100px;
+  width: 50px;
+}
+.nav > li {
+  display: inline-block;
+  margin: auto;
+  color: white;
+  font-family: 'nav-bar';
+  font-weight: 300;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.nav > li > a {
+  padding: 1.3em 2em;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+}
+li a:hover {
+  background-color: #4d2bbd;
+}
+@font-face {
+  font-family: 'nav-bar';
+  src: url(YoungSerif-Regular.ttf);
+}
+/* ABOUT LISA LINE */
+#about-lisa {
+  margin-bottom: 100px;
+}
+.hadiah-about-lisa , .pesan-about-lisa , .kita-about-lisa {
+  text-align: center;
+}
+.image-icon {
+  max-width: 12em;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.hadiah-lisa {
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 24em;
+  margin: 1em auto;
+  text-align: justify;
+}
+/* @media only screen and (min-width: 600px)
+  .section-working, .section-education {
+    width: 49.5%;
+    vertical-align: top;
+  } */
+.pesan-about-lisa,.kita-about-lisa  {
+  display: inline-block;
+  margin-top: 5em;
+}
+.pesan-lisa {
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 24em;
+  margin: 1em auto;
+  text-align: justify;
+}
+.kita-lisa  {
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 24em;
+  margin: 1em auto;
+  text-align: justify;
+}
+.kita-about-lisa {
+  float: right;
+}
+/* PORTOFOLIO LISA LINE */
+#portofolio-lisa {
+  width: 100%;
+  padding: 2em 0;
+  margin-bottom: 80px;
+}
+.title-portofolio {
+  text-decoration: underline;
+  text-align: center;
+}
+.foto-lisa {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.img-portofolio {
+  max-width: 300px;
+  display: inline-block;
+  width: 90%;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+hr {
+  max-width: 600px;
+  margin: 0 auto;
+}
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+.title-contact {
+  text-decoration: underline;
+  text-align: center;
+}
+h1,h2,h3{
+  font-weight: 700;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
